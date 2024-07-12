@@ -1,0 +1,18 @@
+Steps: 
+
+1. - It is clearly visible that the computer is connected to the network.
+- My VM is continuously pinging google.com throughout the incident (showing the availability of network).
+
+2. - I run the malware (Lazagne.exe) 
+- The detection and response rules gets an alert and sends the alert to the slack, email and a simple webpage.
+- Slack and Email contain the verbose information of the computer.
+- Also in webpage we get the verbose information but we also get an user prompt for the isolation.
+
+3. - If user selects 'YES', the LimaCharlie isolation template isolates the computer and we get the status of isolation and the device name.
+- If user selects 'NO', the device remains in the network and sends a message to investigate the computer.
+
+4. After the computer is isolated, we can see it on our LimaCharlie that sensor ID (sid) has been isolated.
+
+5. Going back to the virtual machine (victim), we can see that it no longer pings.
+
+6. You can again connect the computer to the network through LimaCharlie. 
