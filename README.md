@@ -14,7 +14,7 @@ This project aims to automate the response to malware infections on endpoints us
 - Tines (SOAR)
 - LimaCharlie (EDR)
 - Windows machine (VM)
-- Splunk (Message alerts)
+- Slack (Message alerts)
 - Gmail
 - LaZagne.exe (Password recovery malware)
 
